@@ -1,0 +1,74 @@
+.card{
+    border-radius: .3em;
+    /* background-color: #34495e; */
+    text-align: center;
+    /* padding: 3em 2em 1em 2em; */
+    color:aliceblue;
+}
+#reglog{
+    color: black;
+}
+#carImg{
+    height:600px;
+    width: 1920px;
+   
+}
+#how{
+    color: aliceblue
+}
+#how2{
+    height: 15px;
+    width: 15;
+}
+
+.btn-primary{
+    color: #ffcc00;
+}
+
+#sUp{
+    color: black;
+}
+
+#caption{
+    color:whitesmoke ;
+    text-shadow: 10em;
+}
+
+body{
+    margin: 0;
+	font-family: "Montserrat", "Avenir";
+    background-color:rgb(204, 0, 0) !important;
+    /* -webkit-text-fill-color: darkorange; */
+
+}
+
+.rounded-circle{
+    height:150px;
+    width: 150px;
+    align-content: center;
+    
+}
+
+#food{
+    font-family: Cambria, Cochin, serif;
+    -webkit-text-fill-color: aliceblue;
+
+}
+#carouselExampleControls{
+    background-position: 0%;
+
+}
+#addtocart{
+    /* border: none;
+	background: none; */
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: rgb(6, 24, 39);
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+    outline: none;
+    }
