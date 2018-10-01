@@ -26,7 +26,7 @@
 
     </head>
     <body>
-            <nav class="navbar navbar-expand-md navbar-custom navbar-dark fixed-top" style="background-color: #ffcc00">
+            <nav class="navbar navbar-expand-md navbar-custom navbar-dark fixed-top" style="background-color: rgb(230, 0 , 0)">
                     <div class="container-fluid">
                       <div class="page-scroll">
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09"
@@ -60,7 +60,7 @@
                                 <span class="caret"></span>
                             </li>
                         @endauth
-                              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink" style="background-color: #ffcc00">
+                              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink" style="background-color: rgb(230, 0 , 0)">
                               <a class="dropdown-item" href="/breakfast">Breakfast</a>
                               <a class="dropdown-item" href="/lunch">Lunch</a>
                               <a class="dropdown-item" href="/cake">Cakes n Desserts</a> 

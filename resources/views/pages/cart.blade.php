@@ -2,125 +2,52 @@
 
     @section('content')
     <br>
-
-
-    <div class="container-fluid">
-            <div class="row pt120">
-                <div class="col-lg-8 col-lg-offset-2 align-center">
-                    <div class="heading align-center mb60">
-                        <h3 class="h1 heading-title align-center ">Check Out Page</h3>       
-                                           
-                     </div>
-                </div>
+        
+        <div id="content" class="col-sm-9">      <h4 class="page-title">Check Out Page</h4>
+            <form method="post" enctype="multipart/form-data">
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      {{-- <td class="text-center">Image</td> --}}
+                      <td class="text-left">Product Name</td>                     
+                      <td class="text-left">Quantity</td>                     
+                      <td class="text-right">Price</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                     @foreach($cart_items as $item)
+                    <tr>                    
+                        <td class="text-right">{{$item->name}}</td>
+                        <td class="text-right">{{$item->qty}} </td>     
+                        <td class="text-right">{{$item->price}} </td>                      
+                    </tr>
+                    @endforeach
+                   </tbody>
+                </table>
+              </div>
+            </form>
+                  <br />
+            <div class="row ">
+              <div class="col-sm-4 col-sm-offset-8">
+                <table class="table table-bordered pull-justify">
+                  <tr>
+                    <td class="text-right"><strong>Total:</strong></td>
+                  <td class="text-right"> {{"N" . $total }} </td>
+                  </tr>
+              </table>
+              </div>
             </div>
-        </div>
-        
-        <div class="container">
-            <div class="row medium-padding120 bg-border-color">
-                <div class="container">
-        
-                    <div class="row">
-        
-                        <div class="col-lg-12">
-                    <div class="order" >
-                        <h5 class="h1 order-title text-center">Your Order</h5>
-                        @if($cart_items === false)
-                        <h6 class="h1 order-title text-center">No Items in cart</h6>
-                        @else
-                        <form class="cart-main">
-                            <table class="shop_table cart">
-                                <thead class="cart-product-wrap-title-main">
-                                <tr>
-                                    <th class="product-thumbnail">Product</th>
-                                    <th class="product-quantity">Quantity</th>
-                                    <th class="product-subtotal">Total</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-
-                                    
-
-                                   
-
-                                        @foreach($cart_items as $item)
-                                        <tr class="cart_item">
             
-                                                <td class="product-thumbnail">
-                    
-                                                    <div class="cart-product__item">
-                                                        <div class="cart-product-content">
-                                                            <h5 class="cart-product-title">{{$item->name}}</h5>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                    
-                                                <td class="product-quantity">
-                    
-                                                    <div class="quantity">
-                                                            {{$item->qty}}
-                                                    </div>
-                    
-                                                </td>
-                    
-                                                <td class="product-subtotal">
-                                                    <h5 class="total amount">{{"N".$item->price}}</h5>
-                                                </td>
-                    
-                                            </tr>
-                                        
-                                        
-                                        @endforeach
-        
-                                
-    
-                    
-                                            <tr class="cart_item total">
-                    
-                                                <td >
-                    
-                    
-                                                    <div class="cart-product-content">
-                                                        <h5 class="cart-product-title">Total:</h5>
-                                                    </div>
-                    
-                    
-                                                </td>
-                    
-                                                <td class="product-quantity">
-                    
-                                                </td>
-                    
-                                                <td class="product-subtotal">
-                                                    <h5 class="total amount">{{"N" . $total }}</h5>
-                                                </td>
-                                            </tr>
-                    
-                                            </tbody>
-                                        </table>
-                    
-                                        <div id="payButton">
-
-                                        <button type="button" id="pay" class="btn btn-medium"> PAY </button>
-
-                                            </div>
-                                    
-                            </div>
-        
-                            </form>
-                        @endif
-                    </div>
-                </div>
-        
-                    </div>
-                </div>
+              <div><button type="button" id="pay" class="btn btn-primary"> PAY </button></div>
+          
             </div>
-        </div>
+          </div>
+      </div>     
+             
         
-       
         
-        
-        
-        </div>
+     
         
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/crum-mega-menu.js"></script>

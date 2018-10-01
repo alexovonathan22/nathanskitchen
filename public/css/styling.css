@@ -9,26 +9,35 @@
     color: black;
 }
 #carImg{
-    height:600px;
-    width: 1920px;
+    height:400px;
+    width: 720px;
    
 }
+
+#app{
+    color: rgb(230, 0 , 0);
+}
+
 #how{
     color: aliceblue
 }
 #how2{
     height: 15px;
-    width: 15;
+    width: 15pxregi;
 }
 
-.btn-primary{
-    color: #ffcc00;
-}
+/* .btn-primary{
+    /* color: #ffcc00; */
+
 
 #sUp{
     color: black;
+    
 }
 
+.btn{
+    color: rgb(230, 0 , 0);
+}
 #caption{
     color:whitesmoke ;
     text-shadow: 10em;
@@ -37,27 +46,39 @@
 body{
     margin: 0;
 	font-family: "Montserrat", "Avenir";
-    background-color:rgb(204, 0, 0) !important;
+    background-color:rgb(241, 235, 235) !important;
     /* -webkit-text-fill-color: darkorange; */
 
 }
 
 .rounded-circle{
-    height:150px;
-    width: 150px;
+    height:200px !important;
+    width: 200px !important;
     align-content: center;
     
 }
 
+#blc{
+    color: rgb(230, 0 , 0);
+}
+
 #food{
     font-family: Cambria, Cochin, serif;
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color:rgb(230, 0 , 0);
 
 }
 #carouselExampleControls{
     background-position: 0%;
 
 }
+#priceColor{
+    color: green;
+}
+#pay{
+    color: aliceblue;
+}
+
+
 #addtocart{
     /* border: none;
 	background: none; */
@@ -72,3 +93,288 @@ body{
 	-moz-transition: all 0.3s;
     outline: none;
     }
+
+    /* table cart style */
+
+   
+    form {
+    
+    
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    form {
+        display: block;
+        margin-top: 0em;
+    }
+    body {
+        background: url(../image/megnor/body_bg.jpg) repeat scroll left top #ffffff;
+        color: #777777;
+        font-size: 12px;
+        line-height: 20px;
+        font-family: "Arial",Verdana,Verdana,sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        font-size: 62.5%;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+    html {
+        font-family: sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
+    :before, :after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    :before, :after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    element.style {
+    }
+    .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>th, .table>caption+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>td, .table>thead:first-child>tr:first-child>td {
+        border-top: 0;
+    }
+    @media (max-width: 767px)
+    .table-responsive>.table>thead>tr>th, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tfoot>tr>td {
+        white-space: nowrap;
+    }
+    .table-bordered>thead>tr>th, .table-bordered>thead>tr>td {
+        border-bottom-width: 2px;
+    }
+    .table-bordered>thead>tr>td {
+        border-bottom: none;
+    }
+    .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    }
+    .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+        padding: 8px;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+    }
+    .text-left {
+        text-align: left;
+    }
+    td, th {
+        padding: 0;
+    }
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    td, th {
+        display: table-cell;
+        vertical-align: inherit;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    user agent stylesheet
+    table {
+        display: table;
+        border-collapse: separate;
+        border-spacing: 2px;
+        border-color: grey;
+    }
+    body {
+        /* background: url(../image/megnor/body_bg.jpg) repeat scroll left top #ffffff; */
+        color: #777777;
+        font-size: 12px;
+        line-height: 20px;
+        font-family: "Arial",Verdana,Verdana,sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        font-size: 62.5%;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+    html {
+        font-family: sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
+    :before, :after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    :before, :after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+     
+@media (max-width: 767px)
+
+.btn-primary, .btn-info {
+    margin-bottom: 2px;
+ }
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #2b7de1;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -khtml-border-radius: 5x!important;
+    -moz-border-radius: 5px!important;
+    padding: 4px 12px;
+}
+.btn {
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: none;
+}
+a {
+    color: #777777;
+    text-decoration: none;
+    cursor: pointer;
+}
+a {
+    background: 0 0;
+}
+a {
+    color: #777;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    background: url(../image/megnor/body_bg.jpg) repeat scroll left top #ffffff;
+    color: #777777;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Arial",Verdana,Verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px)
+.btn-primary, .btn-info {
+    margin-bottom: 2px;
+}
+.btn {
+}
+.btn-primary {
+    color: #fff;
+    background-color: #2b7de1;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -khtml-border-radius: 5x!important;
+    -moz-border-radius: 5px!important;
+}
+.btn {
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: none;
+}
+a {
+    color: #777777;
+    text-decoration: none;
+    cursor: pointer;
+}
+a {
+    background: 0 0;
+}
+a {
+    color: #777;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    background: url(../image/megnor/body_bg.jpg) repeat scroll left top #ffffff;
+    color: #777777;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Arial",Verdana,Verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    

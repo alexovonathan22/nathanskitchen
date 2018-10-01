@@ -7,7 +7,7 @@
             <div class="card">
                 <div id = "reglog" class="card-header" >{{ __('Register') }}</div>
 
-                <div class="card-body" style="background-color: goldenrod">
+                <div class="card-body" style="background-color: rgb(230, 0 , 0)">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
